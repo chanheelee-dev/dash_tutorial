@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "dash-tutorial"
+version = "0.1.0"
+description = ""
+authors = ["Chanhee Lee <qjzx6428@gmail.com>"]
+readme = "README.md"
+packages = [{include = "dash_tutorial"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dash = "^2.7.0"
+jupyter = "^1.0.0"
+pandas = "^1.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
